@@ -1,1 +1,8 @@
 rootProject.name = 'servlet'
+
+pluginManagement{
+    repositories{
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
