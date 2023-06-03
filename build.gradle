@@ -1,7 +1,7 @@
 plugins {
 	id 'java'
 	id 'war'
-	id 'org.springframework.boot' version '3.0.6'
+	id 'org.springframework.boot' version '2.7.7'
 	id 'io.spring.dependency-management' version '1.1.0'
 }
 
@@ -21,6 +21,14 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'cloud.piranha.webapp:piranha-webapp-webservlet:20.5.0'
+	implementation 'cloud.piranha.webapp:piranha-webapp-webservlet:20.5.0'
+	implementation 'cloud.piranha.servlet:piranha-servlet-webservlet:20.4.0'
+	implementation 'cloud.piranha.servlet:piranha-servlet-webservlet:20.4.0'
+	implementation 'cloud.piranha.servlet:piranha-servlet-webservlet:20.4.0'
+	implementation 'cloud.piranha.servlet:piranha-servlet-webservlet:20.4.0'
+	implementation 'cloud.piranha.servlet:piranha-servlet-webservlet:20.4.0'
+	implementation 'cloud.piranha.webapp:piranha-webapp-webservlet:20.5.0'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
