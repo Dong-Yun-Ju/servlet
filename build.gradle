@@ -29,8 +29,15 @@ dependencies {
 	implementation 'cloud.piranha.servlet:piranha-servlet-webservlet:20.4.0'
 	implementation 'cloud.piranha.servlet:piranha-servlet-webservlet:20.4.0'
 	implementation 'cloud.piranha.webapp:piranha-webapp-webservlet:20.5.0'
+
+	//JSP 추가 시작
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+	implementation 'javax.servlet:jstl'
+	//JSP 추가 끝
+
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
